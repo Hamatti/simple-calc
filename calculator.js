@@ -3,9 +3,9 @@ let calculation = [];
 
 let resultField = document.getElementById("result-field");
 
-const isNumber = str => str.match(/^([0-9.]+)$/g);
-const isPeriod = str => str.match(/^[0-9]*\.$/g);
-const isOperand = str => str.match(/^[+-/*]$/g);
+const isNumber = str => !!str.match(/^([0-9.]+)$/g);
+const isPeriod = str => !!str.match(/^[0-9]*\.$/g);
+const isOperand = str => !!str.match(/^[+-/*]$/g);
 
 const reset = () => {
   resultField.value = "";
