@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="parent">
+      <div class="result-field">
+        <input id="result-field" placeholder="Result" />
+      </div>
+      <button id="button-c">C</button>
+      <button id="button-no-op"></button>
+      <button
+        id="button-division"
+        class="calculation-operation"
+        data-operand="/"
+      >
+        /
+      </button>
+      <button
+        id="button-multiplication"
+        class="calculation-operation"
+        data-operand="*"
+      >
+        *
+      </button>
+      <button id="button-7" class="numeric-operation" data-value="7">7</button>
+      <button id="button-8" class="numeric-operation" data-value="8">8</button>
+      <button id="button-9" class="numeric-operation" data-value="9">9</button>
+      <button id="button-plus" class="calculation-operation" data-operand="+">
+        +
+      </button>
+      <button id="button-4" class="numeric-operation" data-value="4">4</button>
+      <button id="button-5" class="numeric-operation" data-value="5">5</button>
+      <button id="button-6" class="numeric-operation" data-value="6">6</button>
+      <button id="button-minus" class="calculation-operation" data-operand="-">
+        -
+      </button>
+      <button id="button-1" class="numeric-operation" data-value="1">1</button>
+      <button id="button-2" class="numeric-operation" data-value="2">2</button>
+      <button id="button-3" class="numeric-operation" data-value="3">3</button>
+      <button id="button-equals">=</button>
+      <button id="button-0" class="numeric-operation" data-value="0">0</button>
+      <button id="button-period">.</button>
+    </div>
+
+    <script src="calculator.js"></script>
+  </body>
+</html>
