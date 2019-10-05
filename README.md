@@ -12,6 +12,6 @@ Just open `index.html` and you're good to go.
 
 ## Tests
 
-Uses [Jasmine](https://jasmine.github.io/) for tests. You can run the tests by opening up `tests/SpecRunner.html` and edit tests inside `tests.calculatorSpec.js` file.
+Uses [Jasmine](https://jasmine.github.io/) for tests. You can run the tests by opening up `tests/index.html` and edit tests inside `tests.calculatorSpec.js` file.
 
 No `package.json` management, running local versions of Jasmine (found in `tests/lib` folder) to keep it simple and easy to run even without Internet.
